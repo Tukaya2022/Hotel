@@ -26,9 +26,10 @@ hotel1 = TypeRoom(200, 20, "Classe A", 1)
 hotel2 = TypeRoom(120, 15, "Classe B", 4)
 hotel3 = TypeRoom(300, 17, "Classe C", 5)
 hotel4 = TypeRoom(600, 25, "Classe D", 23)
+hotel5 = TypeRoom(1000, 33, "Classe E", 14)
 print(hotel1.to_order())
 print(hotel2.to_order())
 print(hotel3.to_order())
 print(hotel4.to_order())
-
+print(hotel5.to_order())
 
